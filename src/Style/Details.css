@@ -1,0 +1,58 @@
+
+.detailsCard{ 
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10px 5px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    transition: box-shadow 3s ease-in-out;
+    height: 250px;
+    
+}
+
+.detailsCardImg{
+    flex: 1;
+    height: 100%;
+    overflow: hidden;
+    
+   
+}
+
+.detailsCardImg img{
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 5px;
+  
+
+}
+
+
+.detailsCardinfo{
+    flex: 4;
+    text-align: justify;
+ }
+
+.title{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.dir{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+
+}
+.cast{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.description{
+    width: 90%;
+    text-align: justify;
+    font-size: 17px;
+}
+

@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+ .searchbar{
+
+    padding: 5px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 40%;
+    border-radius: 5px;
+ }
+
+.searchbar input{
+    border: none;
+    padding: 5px;
+    width: 100% ;
+    background-color: inherit;
+    color: white;
+    outline: none;
+    font-size: 20px;
+
+}
+.icon{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.navtitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
